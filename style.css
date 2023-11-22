@@ -29,17 +29,28 @@ div.secao p {
 }
 
 nav {
-    margin-left: 20px;
+    padding: 5px;
+    background-color: #E0F5F6;
+    margin-bottom: 10px;
 }
 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
 nav a {
     text-decoration: none;
     line-height: 1.5;
-    color: blue;
+    color: #349097;
 }
 
 nav a:visited {
-    color: blue;
+    color: #349097;
+}
+
+nav a:hover {
+    color: #2D43C8;
 }
 
 @media screen and (max-width: 600px) {
